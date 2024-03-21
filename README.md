@@ -1,3 +1,6 @@
+[![Top brazil committer](https://user-badge.committers.top/brazil_private/ericdallo.svg)](https://user-badge.committers.top/brazil_private/ericdallo)
+
+
 #### Languages
 
 ![Clojure](https://img.shields.io/badge/CLOJURE-5881D8.svg?style=for-the-badge&logo=Clojure&logoColor=white)

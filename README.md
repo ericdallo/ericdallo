@@ -1,5 +1,4 @@
-[![Top brazil committer](https://user-badge.committers.top/brazil_private/ericdallo.svg)](https://user-badge.committers.top/brazil_private/ericdallo)
-
+[![Top Brazil committers](https://user-badge.committers.top/brazil_private/ericdallo.svg)](https://user-badge.committers.top/brazil_private/ericdallo)
 
 #### Languages
 

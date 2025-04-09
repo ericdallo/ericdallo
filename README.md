@@ -106,4 +106,3 @@
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/ericdallo/)
 [![Patreon](https://img.shields.io/badge/PATREON-F96854.svg?style=for-the-badge&logo=Patreon&logoColor=white)](https://www.patreon.com/ericdallo)
-[![Facebook](https://img.shields.io/badge/FACEBOOK-1877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/eric.dallo.7)

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="208" viewBox="0 0 192 208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="24%" r="62%">
+      <stop offset="0" stop-color="#8fb5fe" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#8fb5fe" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="num" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8250df"/>
+      <stop offset="1" stop-color="#bf3989"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4 0)">
+    <rect x=".5" y=".5" width="183" height="207" rx="17.5" fill="#ffffff"/>
+    <rect x=".5" y=".5" width="183" height="207" rx="17.5" fill="url(#glow)" stroke="#d0d7de"/>
+    <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTguNDcgNjYuNzgiPjxwYXRoIGQ9Ik0zNi4xNyw3LjA4aDQuNjJsLTcuNSwzNy4zOGEzLjI4LDMuMjgsMCwwLDAtLjEyLjcydi40MnEwLDEuMDgsMSwxLjA4YTIuMTksMi4xOSwwLDAsMCwuMzYsMHEuMTgsMCwuNi0uMTVMMzUuMjEsNTBBNi41Myw2LjUzLDAsMCwxLDM0LDUwLjRhOS4yNSw5LjI1LDAsMCwxLTEuNjIuMTIsMy45NCwzLjk0LDAsMCwxLTIuOTEtMSwzLjc3LDMuNzcsMCwwLDEtMS0yLjc5LDExLjc4LDExLjc4LDAsMCwxLC4zNi0yLjUyWiIvPjxwYXRoIGQ9Ik00My4zMSw0Mi43MmExMS4yNiwxMS4yNiwwLDAsMCwzLjMsMy4wOUE3LjkyLDcuOTIsMCwwLDAsNTAuODEsNDdhNy4xLDcuMSwwLDAsMCwyLjM3LS4zOSw3LjIsNy4yLDAsMCwwLDItMS4wNUE0Ljg4LDQuODgsMCwwLDAsNTYuNTEsNDQsMy44NSwzLjg1LDAsMCwwLDU3LDQyLjEyYTMuNzcsMy43NywwLDAsMC0uMjctMS40NCw0LjE5LDQuMTksMCwwLDAtLjg3LTEuMjlBOC42MSw4LjYxLDAsMCwwLDU0LjIsMzguMXEtMS4wNS0uNjYtMi41NS0xLjVhMTkuMDgsMTkuMDgsMCwwLDEtNS0zLjY2QTYuMjMsNi4yMywwLDAsMSw0NSwyOC42MmE3LjgsNy44LDAsMCwxLC44MS0zLjU0QTguNjEsOC42MSwwLDAsMSw0OCwyMi4zMmE5LjgzLDkuODMsMCwwLDEsMy4xOC0xLjc3QTExLjgxLDExLjgxLDAsMCwxLDU1LDE5LjkyLDEwLjUzLDEwLjUzLDAsMCwxLDU5Ljg0LDIxYTEzLjMsMTMuMywwLDAsMSwzLjc1LDIuODJMNjEsMjYuNGExMywxMywwLDAsMC0yLjY0LTIsNi42Nyw2LjY3LDAsMCwwLTMuNDItLjg0QTUuODYsNS44NiwwLDAsMCw1MSwyNC44N2E0LjA5LDQuMDksMCwwLDAtMS41OSwzLjIxLDMuMTYsMy4xNiwwLDAsMCwuNDIsMS42MkE1LDUsMCwwLDAsNTAuOTMsMzFhMTEuOTMsMTEuOTMsMCwwLDAsMS42NSwxLjE0cS45My41NCwyLDEuMDhhMjUuNDMsMjUuNDMsMCwwLDEsMy4yNywyLjA3LDEyLjY0LDEyLjY0LDAsMCwxLDIuMSwyLDYuMjIsNi4yMiwwLDAsMSwxLjE0LDIsNy4xOCw3LjE4LDAsMCwxLC4zMywyLjIyLDguNDUsOC40NSwwLDAsMS0uODEsMy43Miw4LjA5LDguMDksMCwwLDEtMi4yOCwyLjg1LDEwLjYzLDEwLjYzLDAsMCwxLTMuNDgsMS44LDE0LjQ3LDE0LjQ3LDAsMCwxLTQuMzUuNjMsMTAuNTYsMTAuNTYsMCwwLDEtMi45MS0uNDIsMTMuMzMsMTMuMzMsMCwwLDEtMi44Mi0xLjE3LDEyLjgyLDEyLjgyLDAsMCwxLTIuNDYtMS43N0ExMC43MiwxMC43MiwwLDAsMSw0MC40Myw0NVoiLz48cGF0aCBkPSJNNzAuNjEsNTIuNTYsNjguNzUsNjIuMUg2NC4xOWw4LjI4LTQxLjQ2aDMuNzhsLS4zNiwzLjg0aC4xOGEyNy4yOSwyNy4yOSwwLDAsMSw0Ljc3LTMuMjEsMTEuMiwxMS4yLDAsMCwxLDUuMzEtMS4zNSw3LjU2LDcuNTYsMCwwLDEsNi4xMiwyLjczcTIuMjgsMi43MywyLjI4LDcuODNhMjMsMjMsMCwwLDEtMS4zMiw3Ljg2LDIxLjY2LDIxLjY2LDAsMCwxLTMuNTEsNi4zNiwxNywxNywwLDAsMS01LDQuMjYsMTIsMTIsMCwwLDEtNS44NSwxLjU2LDcuMzIsNy4zMiwwLDAsMS00LjA4LTEuMTcsOS40Niw5LjQ2LDAsMCwxLTIuOTQtM2gtLjEyWm0xMy44Ni0yOC44QTkuODIsOS44MiwwLDAsMCw4MCwyNWExNi41MiwxNi41MiwwLDAsMC00LjUzLDMuNTRMNzIuNzEsNDIuNDhhOC4zMyw4LjMzLDAsMCwwLDIuNywzLjI0LDUuOSw1LjksMCwwLDAsMy4yNCwxLDcuNzYsNy43NiwwLDAsMCw0LjItMS4yOSwxMi42OSwxMi42OSwwLDAsMCwzLjU3LTMuNDVBMTguNzcsMTguNzcsMCwwLDAsODguODgsMzdhMTguMzgsMTguMzgsMCwwLDAsLjkzLTUuODUsOSw5LDAsMCwwLTEuNDEtNS41NUE0LjY4LDQuNjgsMCwwLDAsODQuNDcsMjMuNzZaIi8+PHBhdGggZD0iTTE3Ljg0LDVDMTYuNSw1Ljg0LDQsMTQuMjEsMy4wNiwyOS45NEEzMi4yNiwzMi4yNiwwLDAsMCwxNy44NCw1OC44IiBmaWxsPSJub25lIiBzdHJva2U9IiM5M2RhNTIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjYiLz48cGF0aCBkPSJNMTAwLjYzLDVjMS4zNS44NywxMy44Myw5LjI0LDE0Ljc5LDI1QTMyLjI5LDMyLjI5LDAsMCwxLDEwMC42Myw1OC44IiBmaWxsPSJub25lIiBzdHJva2U9IiM5MWI2ZmIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjYiLz48L3N2Zz4=" x="24" y="26" width="136" height="56" preserveAspectRatio="xMidYMid meet"/>
+    <text x="92" y="130" text-anchor="middle" font-size="34" font-weight="700" fill="url(#num)">5.6M</text>
+    <text x="92" y="150" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="2" fill="#59636e">DOWNLOADS</text>
+    <line x1="18" y1="168.5" x2="166" y2="168.5" stroke="#d0d7de"/>
+    <text x="18" y="191" font-size="13.5" font-weight="600" fill="#1f2328">clojure-lsp</text>
+    <text x="166" y="191" text-anchor="end" font-size="12.5" fill="#59636e"><tspan fill="#bf8700">★</tspan> 1.3k</text>
+  </g>
+</svg>

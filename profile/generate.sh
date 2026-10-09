@@ -72,6 +72,16 @@ logo_image() { # file x y max-width max-height
   printf '<image href="%s" %s/>' "$(data_uri "$1")" "$dims"
 }
 
+text_width() { # text font-size, using Helvetica Bold metrics
+  awk -v s="$1" -v size="$2" 'BEGIN {
+    split("a556 b611 c556 d611 e556 f333 g611 h611 i278 j278 k556 l278 m889 n611 o611 p611 q611 r389 s556 t333 u611 v556 w778 x556 y556 z500 A722 B722 C722 D722 E667 F611 G778 H722 I278 J556 K722 L611 M833 N722 O778 P667 Q778 R722 S667 T611 U722 V667 W944 X667 Y667 Z611 0556 1556 2556 3556 4556 5556 6556 7556 8556 9556", m, " ")
+    for (i in m) w[substr(m[i], 1, 1)] = substr(m[i], 2)
+    w[" "] = 278; w["."] = 278; w[","] = 278; w["-"] = 333; w["\047"] = 278
+    for (i = 1; i <= length(s); i++) { c = substr(s, i, 1); t += (c in w) ? w[c] : 556 }
+    printf "%d", t * size / 1000 + 0.5
+  }'
+}
+
 theme() {
   case "$1" in
     dark) BG="#1c2128" FG="#f0f6fc" MUTED="#9198a1" ;;
@@ -102,6 +112,25 @@ EOF
   done
 }
 
+title() { # lead highlighted-text
+  local lead=$1 word=$2 lw ww bw x mode
+  lw=$(text_width "$lead" 30)
+  ww=$(text_width "$word" 30)
+  bw=$((ww + 32))
+  x=$(((796 - lw - 14 - bw - 4) / 2 + lw))
+  for mode in dark light; do
+    theme "$mode"
+    cat >"title-$mode.svg" <<EOF
+<svg xmlns="http://www.w3.org/2000/svg" width="796" height="76" viewBox="0 0 796 76" font-family="$FONT" font-size="30" font-weight="800">
+  <text x="$x" y="48" text-anchor="end" textLength="$lw" fill="$FG">$lead</text>
+  <rect x="$((x + 18))" y="18" width="$bw" height="46" rx="8" fill="$FG" stroke="$FG" stroke-width="2.5"/>
+  <rect x="$((x + 14))" y="14" width="$bw" height="46" rx="8" fill="#8be9fd" stroke="$FG" stroke-width="2.5"/>
+  <text x="$((x + 14 + bw / 2))" y="48" text-anchor="middle" textLength="$ww" fill="#1f2328">$word</text>
+</svg>
+EOF
+  done
+}
+
 contact() { # id shadow-color (or "fg") icon
   local id=$1 shadow=$2 icon=$3 mode fill
   for mode in dark light; do
@@ -119,6 +148,8 @@ EOF
 }
 
 MELPA=$(curl -sfL https://melpa.org/download_counts.json)
+
+title "I build open source" "developer tools"
 
 tile clojure-lsp clojure-lsp "#93da52" clojure-lsp/clojure-lsp releases
 tile eca ECA "#14a3b5" editor-code-assistant/eca releases

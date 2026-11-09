@@ -6,5 +6,5 @@
   <text x="20" y="140" font-size="12.5" font-weight="600" fill="#9198a1">downloads</text>
   <line x1="4" y1="158" x2="182" y2="158" stroke="#f0f6fc" stroke-width="2.5"/>
   <text x="20" y="184" font-size="14" font-weight="700" fill="#f0f6fc">lsp-dart</text>
-  <text x="166" y="184" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">★ 217</text>
+  <text x="166" y="184" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">★ 218</text>
 </svg>
